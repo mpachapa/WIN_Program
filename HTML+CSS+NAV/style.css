@@ -1,0 +1,43 @@
+
+nav {
+    background-color: black;
+    height: 90px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav * {
+    color: white;
+}
+
+nav > * {
+    padding: 0px 15px;
+}
+
+nav img {
+    height: 15px;
+}
+
+nav p {
+    line-height: 0%;
+}
+
+#cfh-logo {
+    background-color: purple;
+}
+
+#cfh-logo p {
+    font-size: 30px;
+    text-align: center;
+    line-height: 1em;
+}
+
+#search-icon {
+    margin: -3px 0px;
+}
+
+#cart-icon {
+    margin: -1px 0px;
+}
