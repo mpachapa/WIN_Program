@@ -1,8 +1,6 @@
-
 nav {
     background-color: black;
     height: 90px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,10 +16,6 @@ nav > * {
 
 nav img {
     height: 15px;
-}
-
-nav p {
-    line-height: 0%;
 }
 
 #cfh-logo {
