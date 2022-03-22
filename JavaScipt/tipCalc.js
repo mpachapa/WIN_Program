@@ -6,8 +6,8 @@ function calcTipWTotal(total) {
     return total * 1.2;
 }
 
-let billTotal = 159;
+let subTotal = 300;
 console.log(calcTip(200));
 console.log(calcTipWTotal(200) + "\n");
-console.log(calcTip(billTotal));
-console.log(calcTipWTotal(billTotal) + "\n");
+console.log(calcTip(subTotal));
+console.log(calcTipWTotal(subTotal) + "\n");
