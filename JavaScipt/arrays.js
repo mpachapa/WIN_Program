@@ -10,8 +10,8 @@ let state = [
     ["Vermont", "Montpelier", "Hermit Thrush"],
     ["Virginia", "Richmond", "Cardinal"]
 ];
-
-//Printing of name array
+state.push(["Illinios", "Springfield", "Cardinal"])
+    //Printing of name array
 for (var i = 0; i < names.length; i++) {
     console.log(names[i]);
 }
@@ -45,19 +45,25 @@ function incrementItems(passArray) {
     tempArray = [];
     for (var h = 0; h < passArray.length; h++) {
         let temp = passArray[h];
+        //console.log(temp + " before");
         temp++;
+        //console.log(temp + " after");
         tempArray.push(temp);
     }
     return tempArray;
 }
+//define array of numbers
+arrayOfNums = [3, 2, 1];
+console.log(incrementItems(arrayOfNums));
+
 //Printing of incrimentItems
 console.log("");
-console.log(incrementItems([1, 2, 3]));
+console.log(incrementItems([1, 43, -88, 73, 11]));
 
 //Printing of incrimentItemsMap
 console.log("");
-console.log(incrementItemsMap([1, 2, 3]));
+//console.log(incrementItemsMap([1, 2, 3]));
 
 //Getting the first value of an Array
 console.log("");
-console.log(getFirstVal(names));
+//console.log(getFirstVal(names));

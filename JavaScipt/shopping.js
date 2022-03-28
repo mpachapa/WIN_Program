@@ -31,11 +31,14 @@ shoppingList.shift();
 
 //Continuing adding items to cart and removing them from the shopping list
 while (shoppingList.length != 0) {
+    // console.log(cart);
     cart.push(shoppingList[0]);
+    // console.log(shoppingList);
     shoppingList.shift();
-    console.log(cart);
 }
+//Printing of both shoppinglist and cart
 console.log("The empty shopping list: " + shoppingList);
+console.log(cart);
 
 //Organizing the shopping cart
 cart.sort();
@@ -45,3 +48,11 @@ console.log(cart);
 
 //printing of the cart array as a string
 console.log(cart.toString());
+//printing of cart with spaces
+let temp = "";
+for (var i = 0; i < cart.length; i++) {
+
+    temp += cart[i];
+    temp += ", ";
+}
+console.log(temp);
