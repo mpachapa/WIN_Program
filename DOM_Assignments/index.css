@@ -1,0 +1,70 @@
+    /* CSS Writen by Matthew Pachapa
+   Navbar Styling Classes */
+    
+    .nav {
+        background-color: #344e41;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .nav-item a {
+        color: white;
+        size: 8px;
+        margin: 5px;
+    }
+    
+    .nav a:hover {
+        padding: 2px;
+        color: #dad7cd;
+    }
+    
+    .nav a#active {
+        background-color: #a3b18a;
+        padding: 10px;
+        color: white;
+    }
+    /* Other Classes defined */
+    
+    .centern {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        list-style-position: inside;
+    }
+    /* Other elements */
+    
+    h1 {
+        font-size: 30px;
+        padding: 20px;
+    }
+    
+    h2 {
+        font-size: 20px;
+        padding: 20px;
+    }
+    
+    h3 {
+        color: white;
+    }
+    
+    img {
+        padding-bottom: 20px;
+    }
+    
+    p {
+        size: 14px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 20px;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    body {
+        background-size: auto;
+        background: #588157;
+    }
