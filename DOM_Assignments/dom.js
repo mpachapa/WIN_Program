@@ -11,7 +11,7 @@ window.onload = function() {
     //var divCol = document.getElementsByClassName("col");
     var h2Highlight = document.querySelector("h2.highlight").parentElement.parentElement;
     
-    var sectionsContainingH2 = Array.from(document.querySelectorAll("h2")).map(x => x.parentElement);
+    var sectionsContainingH2 = Array.from(document.querySelectorAll("h2")).map(m => m.parentElement);
 
     //Printing of variables
     console.log(head); //1.
