@@ -6,7 +6,7 @@ $('#button1').on('click', function() {
     $('#div1').text('')
 
     //Get Posts from Server
-    $.get('https://my-json-server.typicode.com/zachhall/WIN2020_AjaxPromises/posts' , function(posts) {
+    $.get('https://jsonplaceholder.typicode.com/posts' , function(posts) {
         posts.forEach( post => {
             //Turn Object into string
             let postText = JSON.stringify(post)
